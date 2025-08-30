@@ -13,7 +13,7 @@ describe("New Endpoint", () => {
     const res = await request(app).get("/ice-flakes");
     expect(res.body).toEqual({
       resource: "ice-flakes",
-      count: 205,
+      count: 1005,
       shape: "circle",
     });
     expect(res.statusCode).toEqual(201);
